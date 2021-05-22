@@ -1,0 +1,304 @@
+[31-Mar-2020 02:18:58 UTC] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Route [hotel.search] not defined. (View: /home/fountain/crowdroom.net/modules/Hotel/Views/frontend/layouts/search/form-search.blade.php) (View: /home/fountain/crowdroom.net/modules/Hotel/Views/frontend/layouts/search/form-search.blade.php) in /home/fountain/crowdroom.net/modules/Template/Models/Template.php on line 0
+[31-Mar-2020 02:20:13 UTC] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Route [hotel.search] not defined. (View: /home/fountain/crowdroom.net/modules/Hotel/Views/frontend/layouts/search/form-search.blade.php) (View: /home/fountain/crowdroom.net/modules/Hotel/Views/frontend/layouts/search/form-search.blade.php) in /home/fountain/crowdroom.net/modules/Template/Models/Template.php on line 0
+[21-Apr-2020 15:36:36 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/public/plugins/LazyPayerCheckout/Gateway/Ispay.class.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php:11
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 11, Array)
+#1 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\LazyPay...')
+#5 [internal function]: spl_autoload_call('Plugins\\LazyPay...')
+#6 /home/fountain/crowdroom.net/modules/Booking/Sett in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:36:36 UTC] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/public/plugins/LazyPayerCheckout/Gateway/Ispay.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:36:47 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/public/plugins/LazyPayerCheckout/Gateway/Ispay.class.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php:11
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 11, Array)
+#1 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\LazyPay...')
+#5 [internal function]: spl_autoload_call('Plugins\\LazyPay...')
+#6 /home/fountain/crowdroom.net/modules/Booking/Sett in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:36:47 UTC] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/public/plugins/LazyPayerCheckout/Gateway/Ispay.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:36:50 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/public/plugins/LazyPayerCheckout/Gateway/Ispay.class.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php:11
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 11, Array)
+#1 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\LazyPay...')
+#5 [internal function]: spl_autoload_call('Plugins\\LazyPay...')
+#6 /home/fountain/crowdroom.net/modules/Booking/Sett in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:36:50 UTC] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/public/plugins/LazyPayerCheckout/Gateway/Ispay.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:37:51 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/public/plugins/LazyPayerCheckout/Gateway/Ispay.class.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php:11
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 11, Array)
+#1 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\LazyPay...')
+#5 [internal function]: spl_autoload_call('Plugins\\LazyPay...')
+#6 /home/fountain/crowdroom.net/modules/Booking/Cont in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:37:51 UTC] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/public/plugins/LazyPayerCheckout/Gateway/Ispay.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:48:33 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/LazyPayerCheckout/GatewayIspay.class.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php:11
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 11, Array)
+#1 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\LazyPay...')
+#5 [internal function]: spl_autoload_call('Plugins\\LazyPay...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:48:33 UTC] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/LazyPayerCheckout/GatewayIspay.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:49:03 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/LazyPayerCheckout/GatewayIspay.class.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php:11
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 11, Array)
+#1 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\LazyPay...')
+#5 [internal function]: spl_autoload_call('Plugins\\LazyPay...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:49:03 UTC] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/LazyPayerCheckout/GatewayIspay.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:49:05 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/LazyPayerCheckout/GatewayIspay.class.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php:11
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 11, Array)
+#1 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\LazyPay...')
+#5 [internal function]: spl_autoload_call('Plugins\\LazyPay...')
+#6 /home/fountain/crowdroom.net/modules/Booking/Controllers/ in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:49:05 UTC] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/LazyPayerCheckout/GatewayIspay.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:49:13 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/LazyPayerCheckout/GatewayIspay.class.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php:11
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 11, Array)
+#1 /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php(11): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\LazyPay...')
+#5 [internal function]: spl_autoload_call('Plugins\\LazyPay...')
+#6 /home/fountain/crowdroom.net/modules/Booking/Controllers/ in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[21-Apr-2020 15:49:13 UTC] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/LazyPayerCheckout/GatewayIspay.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/LazyPayerCheckout/Gateway/LazyPayerGateway.php on line 11
+[28-Apr-2020 16:00:00 Asia/Taipei] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: car (View: /home/fountain/crowdroom.net/modules/Location/Views/frontend/blocks/list-locations/loop.blade.php) (View: /home/fountain/crowdroom.net/modules/Location/Views/frontend/blocks/list-locations/loop.blade.php) in /home/fountain/crowdroom.net/modules/Template/Models/Template.php on line 0
+[03-Jun-2020 08:08:27 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 08:10:32 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 08:35:01 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 08:35:05 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 08:35:18 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 08:37:09 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 08:37:12 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 08:42:46 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 08:43:45 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[03-Jun-2020 15:31:50 UTC] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('translator')
+#1 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('translator')
+#2 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('translator', Array)
+#4 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/fountain/crowdroom.net/vendor/laravel/framework/src/I in /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[03-Jun-2020 15:31:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('translator')
+#1 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('translator')
+#2 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('translator', Array)
+#4 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/fountain/crowdroom.net/vendor/laravel/framework/src/I in /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[03-Jun-2020 15:32:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('translator')
+#1 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('translator')
+#2 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('translator', Array)
+#4 /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/fountain/crowdroom.net/vendor/laravel/framework/src/I in /home/fountain/crowdroom.net/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
+[04-Jun-2020 15:18:38 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[04-Jun-2020 15:18:41 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[04-Jun-2020 15:18:53 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/ModuleProvider.php on line 30
+[04-Jun-2020 15:32:52 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/Flutterwave/GatewayFlutterwave-Rave-PHP-SDK-master/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_ex in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:32:52 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/Flutterwave/GatewayFlutterwave-Rave-PHP-SDK-master/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:34:22 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_e in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:34:22 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:34:25 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_e in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:34:25 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:38:07 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_e in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:38:07 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:38:45 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(../Flutterwave-Rave-PHP-SDK-master/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_exists('Plugins\\Flutter...')
+#7 [internal function]: M in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:38:45 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '../Flutterwave-Rave-PHP-SDK-master/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:38:48 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(../Flutterwave-Rave-PHP-SDK-master/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_exists('Plugins\\Flutter...')
+#7 [internal function]: M in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:38:48 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '../Flutterwave-Rave-PHP-SDK-master/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 15:44:24 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 15:44:31 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 15:44:47 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 15:48:41 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 15:48:49 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 15:48:51 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 15:56:33 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:12:54 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:12:57 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:13:00 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:13:06 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:13:09 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:13:15 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:27:25 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:27:32 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:29:13 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:30:35 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:30:44 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave1/ModuleProvider.php on line 30
+[04-Jun-2020 16:33:55 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(Flutterwave-Rave-PHP-SDK-master/lib/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(Fl...', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_exists('Plugins\\Flutter...')
+#7 [internal function]:  in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:33:55 Asia/Taipei] PHP Fatal error:  main(): Failed opening required 'Flutterwave-Rave-PHP-SDK-master/lib/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:35:29 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(Flutterwave-Rave-PHP-SDK-master/lib/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(Fl...', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_exists('Plugins\\Flutter...')
+#7 [internal function]:  in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:35:29 Asia/Taipei] PHP Fatal error:  main(): Failed opening required 'Flutterwave-Rave-PHP-SDK-master/lib/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:43:43 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/lib/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): cla in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:43:43 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/lib/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:49:03 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/lib/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): cla in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:49:03 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '/home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/Flutterwave-Rave-PHP-SDK-master/lib/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:49:44 Asia/Taipei] PHP Warning:  Uncaught ErrorException: require_once(../Flutterwave-Rave-PHP-SDK-master/lib/rave.php): failed to open stream: No such file or directory in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php:5
+Stack trace:
+#0 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/fountain/...', 5, Array)
+#1 /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php(5): require_once()
+#2 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(444): include('/home/fountain/...')
+#3 /home/fountain/crowdroom.net/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/fountain/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('Plugins\\Flutter...')
+#5 [internal function]: spl_autoload_call('Plugins\\Flutter...')
+#6 /home/fountain/crowdroom.net/modules/Booking/SettingClass.php(22): class_exists('Plugins\\Flutter...')
+#7 [internal function in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 16:49:44 Asia/Taipei] PHP Fatal error:  main(): Failed opening required '../Flutterwave-Rave-PHP-SDK-master/lib/rave.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/fountain/crowdroom.net/plugins/Flutterwave/Gateway/RaveGateway.php on line 5
+[04-Jun-2020 18:18:47 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:19:03 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:20:55 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:21:11 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:21:19 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:22:05 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:29:05 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:30:53 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:42:11 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:43:28 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:43:32 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:44:08 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:44:33 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:44:42 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:44:54 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:45:47 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:45:55 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:46:13 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:46:26 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:47:45 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:47:46 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:47:48 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:47:49 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:48:32 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:48:47 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:48:51 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:48:55 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:49:01 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 18:49:13 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\FlutterwaveCheckout\Gateway\RaveCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/RaveCheckout/Gateway/RaveCheckoutGateway.php on line 188
+[04-Jun-2020 20:45:03 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/PaymentTwoCheckout/ModuleProvider.php on line 30
+[04-Jun-2020 20:45:05 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/PaymentTwoCheckout/ModuleProvider.php on line 30
+[04-Jun-2020 20:45:06 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/PaymentTwoCheckout/ModuleProvider.php on line 30
+[04-Jun-2020 20:45:20 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/PaymentTwoCheckout/ModuleProvider.php on line 30
+[04-Jun-2020 20:45:25 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\ModuleProvider, because the name is already in use in /home/fountain/crowdroom.net/plugins/PaymentTwoCheckout/ModuleProvider.php on line 30
+[04-Jun-2020 21:07:27 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\PaymentTwoCheckout\SettingClass, because the name is already in use in /home/fountain/crowdroom.net/plugins/Flutterwave/SettingClass.php on line 12
+[05-Jun-2020 00:14:06 Asia/Taipei] PHP Fatal error:  Cannot declare class Plugins\Flutterwave\Gateway\TwoCheckoutGateway, because the name is already in use in /home/fountain/crowdroom.net/plugins/PaymentTwoCheckout/Gateway/TwoCheckoutGateway.php on line 222
+[24-Aug-2020 14:15:49 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/fountain/crowdroom.net/modules/Core/Models/Settings.php on line 2
+[24-Aug-2020 14:17:16 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/fountain/crowdroom.net/modules/Core/Models/Settings.php on line 2
+[24-Aug-2020 14:17:28 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/fountain/crowdroom.net/modules/Core/Models/Settings.php on line 2
+[24-Aug-2020 14:17:39 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/fountain/crowdroom.net/modules/Core/Models/Settings.php on line 2
+[27-Aug-2020 12:57:19 Asia/Taipei] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined index: hotel (View: /home/fountain/crowdroom.net/custom/Location/Views/frontend/blocks/list-locations/loop.blade.php) (View: /home/fountain/crowdroom.net/custom/Location/Views/frontend/blocks/list-locations/loop.blade.php) in /home/fountain/crowdroom.net/modules/Template/Models/Template.php on line 0
+[17-Dec-2020 22:59:17 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail_for_mobile() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 137
+[17-Dec-2020 22:59:19 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail_for_mobile() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 137
+[17-Dec-2020 23:02:21 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail_for_mobile() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 138
+[17-Dec-2020 23:05:11 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail_for_mobile() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 138
+[17-Dec-2020 23:05:16 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail_for_mobile() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 138
+[17-Dec-2020 23:06:25 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail_for_mobile() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 138
+[17-Dec-2020 23:06:32 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail_for_mobile() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 138
+[17-Dec-2020 23:07:14 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail_for_mobile() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 138
+[17-Dec-2020 23:08:04 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 111
+[17-Dec-2020 23:08:32 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 111
+[17-Dec-2020 23:08:33 Asia/Taipei] PHP Fatal error:  Cannot redeclare Modules\Tour\Controllers\TourController::detail() in /home/fountain/api.crowdroom.net/modules/Tour/Controllers/TourController.php on line 111
